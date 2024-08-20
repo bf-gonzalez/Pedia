@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.sliderContainer{
+    
+    position: relative;
+    height: 100%;
+}
+
+.containerImg{
+    
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+.containerImg ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftArrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rightArrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.dotsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.dotContainerItem{
+    margin: 8px 3px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+

@@ -1,0 +1,38 @@
+.navbarConteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-bottom: 1em;
+    align-items: center;
+    height: 100px;
+}
+
+.img{
+    width: 150px;
+    height: 130px;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    align-items: center;
+    height: 100px;
+    padding: 0 30px 0 30px;
+    margin: auto;
+    
+    
+}
+.nav1{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #2a77eb;
+    margin: 0 5px 0 5px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}

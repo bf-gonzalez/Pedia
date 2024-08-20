@@ -1,0 +1,42 @@
+.contenedorImg{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tituloSobre{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #2a77eb ;
+}
+
+.img{
+    width: 400px;
+	height: 400px;
+}
+
+.contenedor{
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.contenidoText p{
+    padding: 0px 0px 30px 15px;
+	font-weight: 300;
+	text-align: justify;
+    width: 300px;
+}
+
+.contenidoText h3 span{
+	background: #1186ca; 
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	margin-right: 5px;
+	display:inline-block;
+}

@@ -1,0 +1,32 @@
+.cardConteiner {
+    border: 1px solid #2a77eb ;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+
+}
+.cardConteiner span{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    color: green;
+    &:hover {
+        color: white;
+        background-color: orange;
+        cursor: pointer;
+    }
+}
+
+.cancelled{
+    color: red;
+}

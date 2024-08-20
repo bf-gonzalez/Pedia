@@ -1,0 +1,74 @@
+.contenLogin {
+    background-color: rgb(253, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 30px;
+    border: 1px solid #2a77eb;
+    
+}
+.title{
+    color: #2a77eb;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.label{
+    width: max-content;
+    margin: 20px;
+
+    display: grid;
+    grid-template-areas: "input";
+}
+
+.input{
+    grid-area: input;
+    width: 300px;
+    font: inherit;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: .7rem 1.5rem;
+}
+
+.label_name{
+    grid-area: input;
+    z-index: 100;
+    width: max-content;
+    margin-left: 1rem;
+    padding: 0 .5rem;
+    align-self: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    transition: transform .2s;
+    transform-origin: center left;
+}
+
+.input:where(:focus,
+:not(:placeholder-shown)) + .label_name{
+    transform: translateY(-50%) scale(.7);
+    background-color: white;
+}
+.button{
+    margin: 30px auto;
+    width: 150px;
+    height: 50px;
+    background-color: #2a77eb;
+    color: black;
+    border-radius: 15px;
+   
+}

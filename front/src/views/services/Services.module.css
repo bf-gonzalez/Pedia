@@ -1,0 +1,86 @@
+.contenedorTarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+    margin: auto;
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    color: #2a77eb;
+}
+
+.tarjetas{
+    display: flex;
+    margin: 0 0 40px 0;
+    text-align: center;
+    color:  #2a77eb;
+    font-size: 15px;
+    
+}
+
+.imgTarjetas{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 0 20px 0 20px;
+    
+}
+
+.tar{
+    border: 1px solid  #2a77eb;
+    border-radius: 20px;
+    margin: 0 20px 0 20px;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.efecto{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transform: scale(0);
+	background: rgb(254, 200, 62);
+	background: radial-gradient(circle,rgba(6, 194, 235, 0.897)0%,rgba(82, 142, 225, 0.877)100%);
+	transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tar:hover .efecto{
+    transform: scale(1);
+}
+
+.efecto img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.efecto p{
+    color: black;
+    margin: 0 20px 0 20px;
+    text-align: justify;
+}
+.efecto h3{
+    color: white;
+}

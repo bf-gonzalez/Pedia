@@ -1,0 +1,30 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 500px;
+    
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #2a77eb;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.title{
+    font-size: 50px;
+    color:#2a77eb;
+}
+
+.button{
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #2a77eb;
+}
